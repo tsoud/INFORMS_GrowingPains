@@ -9,5 +9,5 @@ In this case study, there are 123 locations to serve, which results in an extrem
 ## Files
 There are three Python notebooks in this repo:
 - `GrowingPains_EDA_DataPrep.ipynb` explores the data provided in the case study and prepares it for use with the solver.
-- `GrowingPains_ProblemSolution.ipynb` sets up the problem constraints and solver, then runs the solver to find a solution. The solution time in the notebook is limited to only 15 minutes but increasing run time can potentially find better solutions.
+- `GrowingPains_ProblemSolution.ipynb` sets up the problem constraints and solver, then runs the solver to find a solution. The solution time in the notebook is limited to only 15 minutes but increasing run time can potentially find better solutions. The cell outputs are removed to reduce notebook size. This code should really be run as a Python terminal script, but the notebook is useful for illustration. I will provide a script version of this in the future.
 - `GrowingPains_ProcessingResults.ipynb` is for post-processing results. Some example tables and route maps are provided.
